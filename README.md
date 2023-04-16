@@ -27,4 +27,6 @@ First, it looks to reduce the number of days that a user has their game console 
 
 Second, I assume that a multiplayer game gets a new game feature added onto it that drives up the number of minutes played by users over the past 3 months (mchange metric). This would reduce churn probability from 8.8% for the data set to 7.97%.
 
-In the images "LTV calc console day" and "LTV calc multiplayer mins", I show the effect on the Lifetime Value (LTV) of these customers by reducing their churn rate by these amounts. Some assumptions taken into account are a $59.99 monthly service charge, 3% yearly revenue and cost increases, an 8.6% discount rate (risk free rate + market risk premium),a nd a 5 year time horizon on customer value.
+In the images "LTV calc console day" and "LTV calc multiplayer mins", I show the effect on the Lifetime Value (LTV) of these customers by reducing their churn rate by these amounts. Some assumptions taken into account are a $59.99 monthly service charge, 3% yearly revenue and cost increases, an 8.6% discount rate (risk free rate + market risk premium), and a 5 year time horizon on customer value.
+
+The extra LTV created through these two experiments are both around $4-5 per customer, which can add up tremendously when a business has millions of customers.
