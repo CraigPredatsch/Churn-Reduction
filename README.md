@@ -1,6 +1,8 @@
 # Churn-Reduction
 Shows how to determine which factors may be important to customer churn and how to calculate value gained by addressing these factors.
 
+This experiment uses data for an online gaming subscription, including whether each customer churned in the month the data was collected, whether they subscribe to one or more of selected streaming services, how long they have had their gaming consol, the net change in minutes they've spent on their gaming system over the past 3 months, the number of games they own, whether they have a refurbished game consol, and several other data points.
+
 This R script takes an oversampled test dataset, so it first finds the true churn rate from a representative set of data, the oversampled test data churn rate, and then provides a weight for the data.
 
 The script then uses a logistic regression to plot the churn probability of the test data set.
